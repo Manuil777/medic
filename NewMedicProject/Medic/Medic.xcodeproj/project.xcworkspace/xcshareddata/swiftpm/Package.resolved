@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "81a29729e7dbfe7b976723843d0280926587a532"
+      }
+    },
+    {
+      "identity" : "pincode-ios-component",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Coffee-IT-Development/Pincode-iOS-Component.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "70756c328347babf54acdb3695b132fd93a9a6bf"
+      }
+    }
+  ],
+  "version" : 2
+}

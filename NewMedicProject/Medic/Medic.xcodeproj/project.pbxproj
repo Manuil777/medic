@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073943E429C1799700100BC0 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073943E329C1799700100BC0 /* Card.swift */; };
+		073943E629C18DB000100BC0 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073943E529C18DB000100BC0 /* MainScreen.swift */; };
+		0763C9AA29C2CC15003FB708 /* ConnectOn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763C9A929C2CC15003FB708 /* ConnectOn.swift */; };
+		0763C9AC29C2DF5C003FB708 /* Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763C9AB29C2DF5C003FB708 /* Reset.swift */; };
+		0763C9AE29C2EDB7003FB708 /* scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763C9AD29C2EDB7003FB708 /* scroll.swift */; };
+		0763C9B029C2FA02003FB708 /* eee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0763C9AF29C2FA02003FB708 /* eee.swift */; };
+		07CD2AD229C0227900E76273 /* MedicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AD129C0227900E76273 /* MedicApp.swift */; };
+		07CD2AD429C0227900E76273 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AD329C0227900E76273 /* ContentView.swift */; };
+		07CD2AD629C0227B00E76273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2AD529C0227B00E76273 /* Assets.xcassets */; };
+		07CD2AD929C0227B00E76273 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2AD829C0227B00E76273 /* Preview Assets.xcassets */; };
+		07CD2AE329C0227B00E76273 /* MedicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AE229C0227B00E76273 /* MedicTests.swift */; };
+		07CD2AED29C0227B00E76273 /* MedicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AEC29C0227B00E76273 /* MedicUITests.swift */; };
+		07CD2AEF29C0227B00E76273 /* MedicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AEE29C0227B00E76273 /* MedicUITestsLaunchTests.swift */; };
+		07CD2AFC29C0246800E76273 /* Zastavka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AFB29C0246800E76273 /* Zastavka.swift */; };
+		07CD2AFE29C0263400E76273 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AFD29C0263400E76273 /* OnBoarding.swift */; };
+		07CD2B0029C031D900E76273 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2AFF29C031D900E76273 /* Registration.swift */; };
+		07CD2B0329C0342400E76273 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2B0229C0342400E76273 /* Lato-Semibold.ttf */; };
+		07CD2B0829C0349200E76273 /* FontsFree-Net-SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2B0529C0349200E76273 /* FontsFree-Net-SFProDisplay-Regular.ttf */; };
+		07CD2B0929C0349200E76273 /* FontsFree-Net-SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2B0629C0349200E76273 /* FontsFree-Net-SFProDisplay-Semibold.ttf */; };
+		07CD2B0A29C0349200E76273 /* FontsFree-Net-SFProDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2B0729C0349200E76273 /* FontsFree-Net-SFProDisplay-Heavy.ttf */; };
+		07CD2B0C29C034A700E76273 /* FontsFree-Net-SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07CD2B0B29C034A700E76273 /* FontsFree-Net-SFProDisplay-Medium.ttf */; };
+		07CD2B0E29C0398600E76273 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2B0D29C0398600E76273 /* Api.swift */; };
+		07CD2B1029C0407900E76273 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2B0F29C0407900E76273 /* Verification.swift */; };
+		07CD2B1329C040AC00E76273 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 07CD2B1229C040AC00E76273 /* Alamofire */; };
+		07CD2B1629C040C400E76273 /* CITPincode in Frameworks */ = {isa = PBXBuildFile; productRef = 07CD2B1529C040C400E76273 /* CITPincode */; };
+		07CD2B1829C054EC00E76273 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD2B1729C054EC00E76273 /* Password.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		075C538929C4311500505C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07CD2AC629C0227900E76273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CD2ACD29C0227900E76273;
+			remoteInfo = Medic;
+		};
+		07CD2ADF29C0227B00E76273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07CD2AC629C0227900E76273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CD2ACD29C0227900E76273;
+			remoteInfo = Medic;
+		};
+		07CD2AE929C0227B00E76273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07CD2AC629C0227900E76273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CD2ACD29C0227900E76273;
+			remoteInfo = Medic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073943E329C1799700100BC0 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		073943E529C18DB000100BC0 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		075C538529C4311500505C81 /* MedicTests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicTests2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0763C9A929C2CC15003FB708 /* ConnectOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectOn.swift; sourceTree = "<group>"; };
+		0763C9AB29C2DF5C003FB708 /* Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset.swift; sourceTree = "<group>"; };
+		0763C9AD29C2EDB7003FB708 /* scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scroll.swift; sourceTree = "<group>"; };
+		0763C9AF29C2FA02003FB708 /* eee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eee.swift; sourceTree = "<group>"; };
+		07CD2ACE29C0227900E76273 /* Medic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CD2AD129C0227900E76273 /* MedicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicApp.swift; sourceTree = "<group>"; };
+		07CD2AD329C0227900E76273 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07CD2AD529C0227B00E76273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07CD2AD829C0227B00E76273 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07CD2ADE29C0227B00E76273 /* MedicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CD2AE229C0227B00E76273 /* MedicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicTests.swift; sourceTree = "<group>"; };
+		07CD2AE829C0227B00E76273 /* MedicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CD2AEC29C0227B00E76273 /* MedicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicUITests.swift; sourceTree = "<group>"; };
+		07CD2AEE29C0227B00E76273 /* MedicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07CD2AFB29C0246800E76273 /* Zastavka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zastavka.swift; sourceTree = "<group>"; };
+		07CD2AFD29C0263400E76273 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		07CD2AFF29C031D900E76273 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		07CD2B0229C0342400E76273 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Semibold.ttf"; path = "../../../../../Users/bnkwsr4/Downloads/Lato2OFL/Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		07CD2B0429C0343D00E76273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		07CD2B0529C0349200E76273 /* FontsFree-Net-SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FontsFree-Net-SFProDisplay-Regular.ttf"; path = "../../../../../Users/bnkwsr4/Downloads/FontsFree-Net-SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		07CD2B0629C0349200E76273 /* FontsFree-Net-SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FontsFree-Net-SFProDisplay-Semibold.ttf"; path = "../../../../../Users/bnkwsr4/Downloads/FontsFree-Net-SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		07CD2B0729C0349200E76273 /* FontsFree-Net-SFProDisplay-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FontsFree-Net-SFProDisplay-Heavy.ttf"; path = "../../../../../Users/bnkwsr4/Downloads/FontsFree-Net-SFProDisplay-Heavy.ttf"; sourceTree = "<group>"; };
+		07CD2B0B29C034A700E76273 /* FontsFree-Net-SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FontsFree-Net-SFProDisplay-Medium.ttf"; path = "../../../../../Users/bnkwsr4/Downloads/FontsFree-Net-SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		07CD2B0D29C0398600E76273 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		07CD2B0F29C0407900E76273 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		07CD2B1729C054EC00E76273 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075C538229C4311500505C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CD2ACB29C0227900E76273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CD2B1629C040C400E76273 /* CITPincode in Frameworks */,
+				07CD2B1329C040AC00E76273 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CD2ADB29C0227B00E76273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CD2AE529C0227B00E76273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CD2AC529C0227900E76273 = {
+			isa = PBXGroup;
+			children = (
+				0763C9AF29C2FA02003FB708 /* eee.swift */,
+				0763C9AD29C2EDB7003FB708 /* scroll.swift */,
+				0763C9A929C2CC15003FB708 /* ConnectOn.swift */,
+				07CD2B0D29C0398600E76273 /* Api.swift */,
+				07CD2AD029C0227900E76273 /* Medic */,
+				07CD2B0129C033FA00E76273 /* Font */,
+				07CD2AE129C0227B00E76273 /* MedicTests */,
+				07CD2AEB29C0227B00E76273 /* MedicUITests */,
+				07CD2ACF29C0227900E76273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07CD2ACF29C0227900E76273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07CD2ACE29C0227900E76273 /* Medic.app */,
+				07CD2ADE29C0227B00E76273 /* MedicTests.xctest */,
+				07CD2AE829C0227B00E76273 /* MedicUITests.xctest */,
+				075C538529C4311500505C81 /* MedicTests2.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07CD2AD029C0227900E76273 /* Medic */ = {
+			isa = PBXGroup;
+			children = (
+				07CD2B0429C0343D00E76273 /* Info.plist */,
+				07CD2AD129C0227900E76273 /* MedicApp.swift */,
+				07CD2AD329C0227900E76273 /* ContentView.swift */,
+				0763C9AB29C2DF5C003FB708 /* Reset.swift */,
+				07CD2AFB29C0246800E76273 /* Zastavka.swift */,
+				07CD2AFD29C0263400E76273 /* OnBoarding.swift */,
+				07CD2AFF29C031D900E76273 /* Registration.swift */,
+				07CD2B0F29C0407900E76273 /* Verification.swift */,
+				07CD2B1729C054EC00E76273 /* Password.swift */,
+				073943E329C1799700100BC0 /* Card.swift */,
+				073943E529C18DB000100BC0 /* MainScreen.swift */,
+				07CD2AD529C0227B00E76273 /* Assets.xcassets */,
+				07CD2AD729C0227B00E76273 /* Preview Content */,
+			);
+			path = Medic;
+			sourceTree = "<group>";
+		};
+		07CD2AD729C0227B00E76273 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07CD2AD829C0227B00E76273 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07CD2AE129C0227B00E76273 /* MedicTests */ = {
+			isa = PBXGroup;
+			children = (
+				07CD2AE229C0227B00E76273 /* MedicTests.swift */,
+			);
+			path = MedicTests;
+			sourceTree = "<group>";
+		};
+		07CD2AEB29C0227B00E76273 /* MedicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07CD2AEC29C0227B00E76273 /* MedicUITests.swift */,
+				07CD2AEE29C0227B00E76273 /* MedicUITestsLaunchTests.swift */,
+			);
+			path = MedicUITests;
+			sourceTree = "<group>";
+		};
+		07CD2B0129C033FA00E76273 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				07CD2B0229C0342400E76273 /* Lato-Semibold.ttf */,
+				07CD2B0729C0349200E76273 /* FontsFree-Net-SFProDisplay-Heavy.ttf */,
+				07CD2B0529C0349200E76273 /* FontsFree-Net-SFProDisplay-Regular.ttf */,
+				07CD2B0629C0349200E76273 /* FontsFree-Net-SFProDisplay-Semibold.ttf */,
+				07CD2B0B29C034A700E76273 /* FontsFree-Net-SFProDisplay-Medium.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075C538429C4311500505C81 /* MedicTests2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075C538D29C4311500505C81 /* Build configuration list for PBXNativeTarget "MedicTests2" */;
+			buildPhases = (
+				075C538129C4311500505C81 /* Sources */,
+				075C538229C4311500505C81 /* Frameworks */,
+				075C538329C4311500505C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075C538A29C4311500505C81 /* PBXTargetDependency */,
+			);
+			name = MedicTests2;
+			productName = MedicTests2;
+			productReference = 075C538529C4311500505C81 /* MedicTests2.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07CD2ACD29C0227900E76273 /* Medic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CD2AF229C0227B00E76273 /* Build configuration list for PBXNativeTarget "Medic" */;
+			buildPhases = (
+				07CD2ACA29C0227900E76273 /* Sources */,
+				07CD2ACB29C0227900E76273 /* Frameworks */,
+				07CD2ACC29C0227900E76273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medic;
+			packageProductDependencies = (
+				07CD2B1229C040AC00E76273 /* Alamofire */,
+				07CD2B1529C040C400E76273 /* CITPincode */,
+			);
+			productName = Medic;
+			productReference = 07CD2ACE29C0227900E76273 /* Medic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07CD2ADD29C0227B00E76273 /* MedicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CD2AF529C0227B00E76273 /* Build configuration list for PBXNativeTarget "MedicTests" */;
+			buildPhases = (
+				07CD2ADA29C0227B00E76273 /* Sources */,
+				07CD2ADB29C0227B00E76273 /* Frameworks */,
+				07CD2ADC29C0227B00E76273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07CD2AE029C0227B00E76273 /* PBXTargetDependency */,
+			);
+			name = MedicTests;
+			productName = MedicTests;
+			productReference = 07CD2ADE29C0227B00E76273 /* MedicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07CD2AE729C0227B00E76273 /* MedicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CD2AF829C0227B00E76273 /* Build configuration list for PBXNativeTarget "MedicUITests" */;
+			buildPhases = (
+				07CD2AE429C0227B00E76273 /* Sources */,
+				07CD2AE529C0227B00E76273 /* Frameworks */,
+				07CD2AE629C0227B00E76273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07CD2AEA29C0227B00E76273 /* PBXTargetDependency */,
+			);
+			name = MedicUITests;
+			productName = MedicUITests;
+			productReference = 07CD2AE829C0227B00E76273 /* MedicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07CD2AC629C0227900E76273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					075C538429C4311500505C81 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 07CD2ACD29C0227900E76273;
+					};
+					07CD2ACD29C0227900E76273 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					07CD2ADD29C0227B00E76273 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 07CD2ACD29C0227900E76273;
+					};
+					07CD2AE729C0227B00E76273 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 07CD2ACD29C0227900E76273;
+					};
+				};
+			};
+			buildConfigurationList = 07CD2AC929C0227900E76273 /* Build configuration list for PBXProject "Medic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07CD2AC529C0227900E76273;
+			packageReferences = (
+				07CD2B1129C040AC00E76273 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				07CD2B1429C040C400E76273 /* XCRemoteSwiftPackageReference "Pincode-iOS-Component" */,
+			);
+			productRefGroup = 07CD2ACF29C0227900E76273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07CD2ACD29C0227900E76273 /* Medic */,
+				07CD2ADD29C0227B00E76273 /* MedicTests */,
+				07CD2AE729C0227B00E76273 /* MedicUITests */,
+				075C538429C4311500505C81 /* MedicTests2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075C538329C4311500505C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CD2ACC29C0227900E76273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CD2B0929C0349200E76273 /* FontsFree-Net-SFProDisplay-Semibold.ttf in Resources */,
+				07CD2B0C29C034A700E76273 /* FontsFree-Net-SFProDisplay-Medium.ttf in Resources */,
+				07CD2AD929C0227B00E76273 /* Preview Assets.xcassets in Resources */,
+				07CD2AD629C0227B00E76273 /* Assets.xcassets in Resources */,
+				07CD2B0829C0349200E76273 /* FontsFree-Net-SFProDisplay-Regular.ttf in Resources */,
+				07CD2B0329C0342400E76273 /* Lato-Semibold.ttf in Resources */,
+				07CD2B0A29C0349200E76273 /* FontsFree-Net-SFProDisplay-Heavy.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CD2ADC29C0227B00E76273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CD2AE629C0227B00E76273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075C538129C4311500505C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CD2ACA29C0227900E76273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CD2B0E29C0398600E76273 /* Api.swift in Sources */,
+				0763C9B029C2FA02003FB708 /* eee.swift in Sources */,
+				073943E429C1799700100BC0 /* Card.swift in Sources */,
+				073943E629C18DB000100BC0 /* MainScreen.swift in Sources */,
+				07CD2AFC29C0246800E76273 /* Zastavka.swift in Sources */,
+				07CD2AD429C0227900E76273 /* ContentView.swift in Sources */,
+				0763C9AC29C2DF5C003FB708 /* Reset.swift in Sources */,
+				07CD2AFE29C0263400E76273 /* OnBoarding.swift in Sources */,
+				0763C9AA29C2CC15003FB708 /* ConnectOn.swift in Sources */,
+				07CD2B1829C054EC00E76273 /* Password.swift in Sources */,
+				07CD2B1029C0407900E76273 /* Verification.swift in Sources */,
+				07CD2B0029C031D900E76273 /* Registration.swift in Sources */,
+				07CD2AD229C0227900E76273 /* MedicApp.swift in Sources */,
+				0763C9AE29C2EDB7003FB708 /* scroll.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CD2ADA29C0227B00E76273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CD2AE329C0227B00E76273 /* MedicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CD2AE429C0227B00E76273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CD2AED29C0227B00E76273 /* MedicUITests.swift in Sources */,
+				07CD2AEF29C0227B00E76273 /* MedicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		075C538A29C4311500505C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07CD2ACD29C0227900E76273 /* Medic */;
+			targetProxy = 075C538929C4311500505C81 /* PBXContainerItemProxy */;
+		};
+		07CD2AE029C0227B00E76273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07CD2ACD29C0227900E76273 /* Medic */;
+			targetProxy = 07CD2ADF29C0227B00E76273 /* PBXContainerItemProxy */;
+		};
+		07CD2AEA29C0227B00E76273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07CD2ACD29C0227900E76273 /* Medic */;
+			targetProxy = 07CD2AE929C0227B00E76273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075C538B29C4311500505C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ufut.MedicTests2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medic";
+			};
+			name = Debug;
+		};
+		075C538C29C4311500505C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ufut.MedicTests2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medic";
+			};
+			name = Release;
+		};
+		07CD2AF029C0227B00E76273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07CD2AF129C0227B00E76273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07CD2AF329C0227B00E76273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Medic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ufut.Medic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07CD2AF429C0227B00E76273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Medic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ufut.Medic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07CD2AF629C0227B00E76273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ufut.MedicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medic";
+			};
+			name = Debug;
+		};
+		07CD2AF729C0227B00E76273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ufut.MedicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medic";
+			};
+			name = Release;
+		};
+		07CD2AF929C0227B00E76273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ufut.MedicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medic;
+			};
+			name = Debug;
+		};
+		07CD2AFA29C0227B00E76273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ufut.MedicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Medic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075C538D29C4311500505C81 /* Build configuration list for PBXNativeTarget "MedicTests2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075C538B29C4311500505C81 /* Debug */,
+				075C538C29C4311500505C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CD2AC929C0227900E76273 /* Build configuration list for PBXProject "Medic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CD2AF029C0227B00E76273 /* Debug */,
+				07CD2AF129C0227B00E76273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CD2AF229C0227B00E76273 /* Build configuration list for PBXNativeTarget "Medic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CD2AF329C0227B00E76273 /* Debug */,
+				07CD2AF429C0227B00E76273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CD2AF529C0227B00E76273 /* Build configuration list for PBXNativeTarget "MedicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CD2AF629C0227B00E76273 /* Debug */,
+				07CD2AF729C0227B00E76273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CD2AF829C0227B00E76273 /* Build configuration list for PBXNativeTarget "MedicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CD2AF929C0227B00E76273 /* Debug */,
+				07CD2AFA29C0227B00E76273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07CD2B1129C040AC00E76273 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		07CD2B1429C040C400E76273 /* XCRemoteSwiftPackageReference "Pincode-iOS-Component" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Coffee-IT-Development/Pincode-iOS-Component.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07CD2B1229C040AC00E76273 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07CD2B1129C040AC00E76273 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		07CD2B1529C040C400E76273 /* CITPincode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07CD2B1429C040C400E76273 /* XCRemoteSwiftPackageReference "Pincode-iOS-Component" */;
+			productName = CITPincode;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 07CD2AC629C0227900E76273 /* Project object */;
+}
